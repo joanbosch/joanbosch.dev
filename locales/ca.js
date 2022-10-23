@@ -1,95 +1,96 @@
-const en = {
-  locale: 'en',
+const es = {
+  locale: 'es',
   header: {
-    feedback: 'Give feedback',
-    contact: 'Get in touch'
+    feedback: 'Dame feedback',
+    contact: 'Contactame'
   },
   footer: {
-    cta: 'Ready to make something kickass?',
-    ctabtn: "Let's start talking.",
-    copyrigth: '© Developed by Juan Almanza under GPL V3 License',
-    privacy: 'Privacy Policy'
+    cta: '¿Listo para hacer algo increíble?',
+    ctabtn: 'Empecemos a hablar.',
+    copyrigth: '© Desarrollado por Juan Almanza bajo licencia GPL V3',
+    privacy: 'Política de privacidad'
   },
   hero: {
-    titlecolor: 'I develop products ',
-    title: 'that delight and transform communities.',
+    titlecolor: 'Desarrollo productos ',
+    title: 'que deleitan y transforman comunidades.',
     subtitle:
-      "Hi! I'm Juan, a 14 year old Colombian fullstack web developer and competitive programmer, developing award winning world class applications.",
-    contact: 'Get in touch',
-    cv: 'get my CV'
+      'Soy Juan, un desarrollador web fullstack colombiano de 14 años y programador competitivo, desarrollando aplicaciones premiadas de clase mundial.',
+    contact: 'Ponte en contacto',
+    cv: 'obtén mi CV'
   },
   blog: {
-    title: 'My posts',
-    cta: 'Read this article',
-    locale: 'en'
+    title: 'Mis artículos',
+    cta: 'Lee este artículo',
+    locale: 'es'
   },
   contact: {
-    title: 'Get in touch',
+    title: 'Contactame',
     subtitle:
-      "Have a project in mind? Looking to partner or work together? Reach out through the form and I'll get back to you as soon as possible.",
-    submit: 'Submit',
-    name: 'Name',
-    name_placeholder: 'Your name',
+      '¿Tiene un proyecto en mente? ¿Quieres asociarte o trabajar juntos? Ponte en contacto conmigo a través del formulario y te responderé lo antes posible.',
+    submit: 'Enviar',
+    name: 'Nombre',
+    name_placeholder: 'Tu nombre',
     email: 'Email',
-    email_placeholder: 'Your email',
-    message: 'Message',
-    message_placeholder: 'Your message',
+    email_placeholder: 'Tu email',
+    message: 'Mensaje',
+    message_placeholder: 'Tu mensaje',
     attemps_exceeded:
-      'You have exceeded the number of attempts. Please try again later.',
-    sucessful_message: 'Your message has been sent successfully.',
+      'Has excedido el número de intentos. Por favor, inténtalo de nuevo más tarde.',
+    sucessful_message: 'Tu mensaje ha sido enviado correctamente.',
     error_message:
-      'There was an error sending your message. Please try again later.',
-    saving: 'Saving...'
+      'Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.',
+    saving: 'Guardando...'
   },
   awards: {
-    title: 'AWARDS',
+    title: 'PREMIOS',
     awards: [
       {
         url: 'http://oc.uan.edu.co/olimpiada-colombiana-de-computacion',
-        name: 'Second Place',
-        subtitle: 'Colombian computing Olympiad'
+        name: 'Segundo lugar',
+        subtitle: 'Olimpiadas Colombianas de Computación'
       },
       {
         url: 'https://devpost.com/software/medicaid-3f2er5',
-        name: 'Second place',
+        name: 'Segundo lugar',
         subtitle: 'Hack the valley'
       },
       {
         url: 'https://devpost.com/software/collegeloans',
-        name: 'Second place and best financial data hack',
+        name: 'Segundo lugar y mejor proyecto financiero',
         subtitle: 'Data day grind 2.0'
       },
       {
         url: 'https://devpost.com/software/gastroworld',
-        name: 'Second place',
+        name: 'Segundo lugar',
         subtitle: 'Bon Hacketit 2.0'
       },
       {
         url: 'https://devpost.com/software/easytravel-iscyl0',
-        name: 'third place and sponsor prizes',
+        name: 'Tercer lugar',
         subtitle: 'Hack around the world'
       },
       {
         url: 'https://devpost.com/software/awarelms',
-        name: 'Best pre-universitary hack',
+        name: 'Mejor proyecto pre-universitario',
         subtitle: 'Garuda Hacks v2.0'
       }
     ]
   },
   logos: {
-    title: 'Trusted by'
+    title: 'Destacado en'
   },
   projects: {
-    title: 'PROJECTS',
-    subtitle: 'I develop award winning apps',
-    try: 'Try it out',
-    github: 'View GitHub',
-    learn: 'Learn more',
+    title: 'PROYECTOS',
+    subtitle: 'Desarrollo aplicaciones premiadas',
+    try: 'Pruébalo',
+    github: 'Mira el GitHub',
+    learn: 'Más información',
     projects: [
       {
         image: '/kindlymap.png',
         title: 'KindlyMap',
-        description: `Map to search for causes that need help around the world, allowing you to learn more, donate and add your own causes, using Next.js, Deta and PayPal.`,
+        description:
+          'Mapa para buscar causas que necesitan ayuda en todo el mundo, permitiéndote conocer más, donar y añadir tus propias causas, utilizando Next.js, Deta y PayPal.',
         tryit: 'https://map.scidroid.co/',
         info: 'https://devpost.com/software/kindlymap',
         github: 'https://github.com/scidroid/maphacks'
@@ -97,7 +98,8 @@ const en = {
       {
         image: '/medisearch.png',
         title: 'MediSearch',
-        description: `A precise disease search engine based on a large amount of medical data and a powerful artificial intelligence, using React.js, Mantine and Infermedica.`,
+        description:
+          'Un preciso motor de búsqueda de enfermedades basado en una gran cantidad de datos médicos y una potente inteligencia artificial, utilizando React.js, Mantine e Infermedica.',
         tryit: 'https://medisearch.scidroid.co/',
         info: 'https://devpost.com/software/medisearch/',
         github: 'https://github.com/scidroid/medisearch'
@@ -105,7 +107,8 @@ const en = {
       {
         image: '/collegeloans.png',
         title: 'CollegeLoans',
-        description: `Collegeloans is a platform that allows you to search for colleges and plan how to pay for them based on your SAT scores, using React.js, Tailwind and CollegeAI.`,
+        description:
+          'Collegeloans es una plataforma que permite buscar universidades y planificar cómo pagarlas en función de tus resultados del SAT, utilizando React.js, Tailwind y CollegeAI.',
         tryit: 'https://collegeloan.us/',
         info: 'https://devpost.com/software/collegeloans/',
         github: 'https://github.com/pumasteam/collegeloans'
@@ -113,60 +116,60 @@ const en = {
     ]
   },
   services: {
-    title: 'SERVICES',
-    subtitle: 'Products that solves problems, one app at a time',
+    title: 'SERVICIOS',
+    subtitle: 'Productos que resuelven problemas, una aplicación a la vez',
     services: [
       {
         image: '/s1.svg',
-        title: 'What I can do for you',
+        title: 'Lo que puedo hacer por ti',
         subtitle:
-          "Faster, better products that your users love. Here's all the services I provide:",
+          'Productos más rápidos y mejores que sus usuarios adoran. Aquí están todos los servicios que proporciono:',
         list: [
-          'Front-end development',
-          'Back-end development',
-          'Software consulting'
+          'Desarrollo Front-end',
+          'Desarrollo Back-end',
+          'Consultoría de Software'
         ]
       },
       {
         image: '/s2.svg',
-        title: "languages I'm fluent in",
+        title: 'lenguajes que domino',
         subtitle:
-          "Every developer needs the right tools to do the perfect job, Thankfully, I'm multilingual:",
+          'Todo desarrollador necesita las herramientas adecuadas para hacer un trabajo perfecto:',
         list: ['Javascript / React.js', 'Python', 'C++']
       },
       {
         image: '/s3.svg',
-        title: 'What you can expect',
+        title: 'Lo que puede esperar',
         subtitle:
-          'I make products that are more than pretty. I make it shipable and usable',
+          'Hago productos que son más que bonitos. Los hago enviables y utilizables',
         list: [
-          'Clean and functional',
-          'Device and user friendly',
-          'Eficcient and maintanible'
+          'Limpio y funcional',
+          'Fácil de usar en todo dispositivos',
+          'Eficaz y sostenible'
         ]
       }
     ]
   },
   stack: {
     title: 'STACK',
-    subtitle: 'I use the best tools to make the best products'
+    subtitle: 'Lo que uso para hacer un trabajo perfecto'
   },
   about: {
-    title: 'ABOUT ME',
+    title: 'ACERCA DE MÍ',
     content:
-      'When I was 9 years old I had my first approach to programming, in a break at school I went into one of the computers in the library and discovered a website called Khan Academy, where I programmed my first lines of javascript. At that time for me they were just drawings, without knowing that it was going to be my hobby for the next years. In December 2020 I took up programming again, and it became my passion.',
+      'A los 9 años tuve mi primer acercamiento a la programación, en un recreo del colegio entré en uno de los ordenadores de la biblioteca y descubrí una web llamada Khan Academy, donde programé mis primeras líneas de javascript. En ese momento para mí eran sólo dibujos, sin saber que iba a ser mi hobby para los próximos años. En diciembre de 2020 retomé la programación y se convirtió en mi pasión.',
     list: [
-      'I love to try weird things all the time.',
-      'I am always willing to learn new things.',
-      'I have participated in math, physics, science and astronomy olympics.',
-      'Yes, I am 14 years old.'
+      'Me encanta probar cosas raras todo el tiempo.',
+      'Siempre estoy dispuesto a aprender cosas nuevas.',
+      'He participado en olimpiadas de matemáticas, física, ciencias y astronomía.',
+      'Sí, tengo 14 años.'
     ]
   },
   post: {
-    loading: 'Loading',
-    views: 'views',
-    draft: 'Draft'
+    loading: 'Cargando',
+    views: 'vistas',
+    draft: 'Borrador'
   }
 };
 
-export default en;
+export default es;
