@@ -24,7 +24,7 @@ export default function PageLayout({ children, title = 'Joan Bosch - Home'}) {
         />
         <title>{title}</title>
         <meta name="description" content="Joan Bosch Website" />
-        <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header locales={header}></Header>
       <main>
