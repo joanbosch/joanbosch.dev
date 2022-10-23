@@ -5,7 +5,7 @@ import ca from './../locales/ca';
 
 export const useTranslation = () => {
   const router = useRouter();
-  const locale = router.locale === undefined ? 'en' : 'es';
+  const locale = router.locale === undefined ? 'es' : 'en';
 
   const locales = {
     es,
