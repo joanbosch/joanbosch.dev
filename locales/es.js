@@ -2,7 +2,7 @@ const es = {
   locale: 'es',
   header: {
     feedback: 'Dame feedback',
-    contact: 'Contactame'
+    contact: 'Contáctame'
   },
   footer: {
     cta: '¿Listo para hacer algo increíble?',
@@ -14,9 +14,9 @@ const es = {
     titlecolor: 'Desarrollo productos ',
     title: 'que deleitan y transforman comunidades.',
     subtitle:
-      'Soy Juan, un desarrollador web fullstack colombiano de 14 años y programador competitivo, desarrollando aplicaciones premiadas de clase mundial.',
-    contact: 'Ponte en contacto',
-    cv: 'obtén mi CV'
+      'Soy Joan Bosch, ingeniero de software y programador web fullstack de 23 años, aportando soluciones a medida para empresas y startups.',
+    contact: '¿Hablamos?',
+    cv: 'consigue mi CV'
   },
   blog: {
     title: 'Mis artículos',
@@ -24,9 +24,9 @@ const es = {
     locale: 'es'
   },
   contact: {
-    title: 'Contactame',
+    title: 'Contáctame',
     subtitle:
-      '¿Tiene un proyecto en mente? ¿Quieres asociarte o trabajar juntos? Ponte en contacto conmigo a través del formulario y te responderé lo antes posible.',
+      '¿Tienes un proyecto en mente? ¿Quieres colaborar o trabajar juntos? ¡Ponte en contacto conmigo a través del formulario y te responderé lo antes posible!',
     submit: 'Enviar',
     name: 'Nombre',
     name_placeholder: 'Tu nombre',
@@ -44,26 +44,6 @@ const es = {
   awards: {
     title: 'PREMIOS',
     awards: [
-      {
-        url: 'http://oc.uan.edu.co/olimpiada-colombiana-de-computacion',
-        name: 'Segundo lugar',
-        subtitle: 'Olimpiadas Colombianas de Computación'
-      },
-      {
-        url: 'https://devpost.com/software/medicaid-3f2er5',
-        name: 'Segundo lugar',
-        subtitle: 'Hack the valley'
-      },
-      {
-        url: 'https://devpost.com/software/collegeloans',
-        name: 'Segundo lugar y mejor proyecto financiero',
-        subtitle: 'Data day grind 2.0'
-      },
-      {
-        url: 'https://devpost.com/software/gastroworld',
-        name: 'Segundo lugar',
-        subtitle: 'Bon Hacketit 2.0'
-      },
       {
         url: 'https://devpost.com/software/easytravel-iscyl0',
         name: 'Tercer lugar',
@@ -157,12 +137,13 @@ const es = {
   about: {
     title: 'ACERCA DE MÍ',
     content:
-      'A los 9 años tuve mi primer acercamiento a la programación, en un recreo del colegio entré en uno de los ordenadores de la biblioteca y descubrí una web llamada Khan Academy, donde programé mis primeras líneas de javascript. En ese momento para mí eran sólo dibujos, sin saber que iba a ser mi hobby para los próximos años. En diciembre de 2020 retomé la programación y se convirtió en mi pasión.',
+      'A los 16 años tuve mi primer contacto con la programación. Después de graduarme en Bachillerato, proseguí mis estudios como Ingeniero Informático. A los 18 años, empezé a trabajar como auxiliar informático mientras estaba estudiando. Finalmente, en julio de 2019 me empezé mi primer trabajo como programador. A dia de hoy, es también mi pasión.',
     list: [
-      'Me encanta probar cosas raras todo el tiempo.',
+      'Me encanta probar e investigar con nuevas tecnologias.',
       'Siempre estoy dispuesto a aprender cosas nuevas.',
-      'He participado en olimpiadas de matemáticas, física, ciencias y astronomía.',
-      'Sí, tengo 14 años.'
+      'Apasionado por la docencia y el aprendizaje.',
+      'Aficionado a la música y los juegos de estrategia.',
+      'He participado en olimpiadas de física y matemáticas.',
     ]
   },
   post: {
