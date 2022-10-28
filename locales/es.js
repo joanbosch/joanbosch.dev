@@ -97,35 +97,46 @@ const es = {
   },
   services: {
     title: 'SERVICIOS',
-    subtitle: 'Productos que resuelven problemas, una aplicación a la vez',
+    subtitle: 'Ambiciosos productos digitales que resuelven problemas reales.',
     services: [
       {
         image: '/s1.svg',
         title: 'Lo que puedo hacer por ti',
         subtitle:
-          'Productos más rápidos y mejores que sus usuarios adoran. Aquí están todos los servicios que proporciono:',
+          'Productos rápidos y eficientes que sus usuarios adoran. Aquí están todos los servicios que puedo aportar:',
         list: [
           'Desarrollo Front-end',
           'Desarrollo Back-end',
+          'Desarrollo apps escritorio',
           'Consultoría de Software'
         ]
       },
       {
         image: '/s2.svg',
-        title: 'lenguajes que domino',
+        title: 'Lenguajes que domino',
         subtitle:
           'Todo desarrollador necesita las herramientas adecuadas para hacer un trabajo perfecto:',
-        list: ['Javascript / React.js', 'Python', 'C++']
+        list: [
+          'JavaScript / TypeScript',
+          'HTML / CSS',
+          'SQL / NoSQL', 
+          'Python', 
+          'Java',
+          'VB.NET',
+          'C# / C++'
+        ]
       },
       {
         image: '/s3.svg',
-        title: 'Lo que puede esperar',
+        title: 'Calidad, seguridad y fiabilidad',
         subtitle:
-          'Hago productos que son más que bonitos. Los hago enviables y utilizables',
+          'Hago productos que son más que bonitos. Los hago seguros, utilizables y envidiables:',
         list: [
           'Limpio y funcional',
-          'Fácil de usar en todo dispositivos',
-          'Eficaz y sostenible'
+          'Soluciones escalables',
+          'Diseños responsivos',
+          'Eficaz y sostenible',
+          'Seguro y fiable'
         ]
       }
     ]
