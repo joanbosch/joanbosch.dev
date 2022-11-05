@@ -19,7 +19,7 @@ const es = {
     cv: 'consigue mi CV'
   },
   blog: {
-    title: 'Mis artículos',
+    title: 'Mis artículos y charlas',
     cta: 'Lee este artículo',
     locale: 'es'
   },
