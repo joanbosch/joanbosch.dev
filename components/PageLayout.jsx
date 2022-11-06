@@ -5,11 +5,12 @@ import Header from './Header';
 import { useTranslation } from './../utils/locales';
 import Footer from './Footer';
 
-export default function PageLayout({ children, title = 'Joan Bosch - Home'}) {
+export default function PageLayout({ children, title = 'Joan Bosch'}) {
   const { header, footer } = useTranslation();
   return (
     <>
       <Head>
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
         <link
           rel='preload'
           href='/fonts/PlusJakartaSans-Regular.woff2'
