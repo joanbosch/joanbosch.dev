@@ -35,7 +35,7 @@ export default function Avatar({locales}) {
             <a
               onClick={() => trackEvent('Resume viewved')}
               className='text-lg font-bold'
-              href='https://cv.scidroid.co'
+              href='https://www.linkedin.com/in/joanboschpons/'
             >
               {locales.cv}
               <Image
