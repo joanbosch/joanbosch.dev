@@ -67,31 +67,65 @@ const es = {
     learn: 'Más información',
     projects: [
       {
-        image: '/kindlymap.png',
+        image: '/pockless.png',
         title: 'Pockless',
         description:
           'Aplicación para Android que permite a usuarios añadir puntos de interés en un mapa.',
-        tryit: 'https://map.scidroid.co/',
-        info: 'https://devpost.com/software/kindlymap',
-        github: 'https://github.com/scidroid/maphacks'
+        tryit: 'https://github.com/joanbosch/pockless-api',
+        info: 'https://github.com/joanbosch/pockless-api',
+        github: 'https://github.com/joanbosch/pockless-api'
       },
       {
-        image: '/medisearch.png',
-        title: 'MediSearch',
+        image: '/qomp.png',
+        title: 'Among Us - After Ejection',
         description:
-          'Un preciso motor de búsqueda de enfermedades basado en una gran cantidad de datos médicos y una potente inteligencia artificial, utilizando React.js, Mantine e Infermedica.',
-        tryit: 'https://medisearch.scidroid.co/',
-        info: 'https://devpost.com/software/medisearch/',
-        github: 'https://github.com/scidroid/medisearch'
+          'Clon del juego QOMP con estética similar a Among Us, desarrollado en Unity y C#',
+        tryit: 'https://github.com/joanbosch/qomp',
+        info: 'https://github.com/joanbosch/qomp',
+        github: 'https://github.com/joanbosch/qomp'
       },
       {
-        image: '/collegeloans.png',
-        title: 'CollegeLoans',
+        image: '/break-in.png',
+        title: 'Break-In',
         description:
-          'Collegeloans es una plataforma que permite buscar universidades y planificar cómo pagarlas en función de tus resultados del SAT, utilizando React.js, Tailwind y CollegeAI.',
-        tryit: 'https://collegeloan.us/',
-        info: 'https://devpost.com/software/collegeloans/',
-        github: 'https://github.com/pumasteam/collegeloans'
+          'Clon del juego Break-In, desarrollado usando OpenGL y C++',
+        tryit: 'https://github.com/joanbosch/break-in',
+        info: 'https://github.com/joanbosch/break-in',
+        github: 'https://github.com/joanbosch/break-in'
+      },
+      {
+        image: '/learn.png',
+        title: 'Learning Platform',
+        description:
+          'Plataforma educativa dónde se pueden seguir los cursos creados Joan Bosch.',
+        tryit: 'https://learn.joanbosch.dev',
+        info: 'https://github.com/joanbosch/learning-platform',
+        github: 'https://github.com/joanbosch/learning-platform'
+      },
+      {
+        image: '/distributed-marketplace.jpeg',
+        title: 'Distribuited Marketplace',
+        description:
+          'Marketplace distribuido basado en el protocolo de intercambio de mensajes usando Python.',
+        tryit: 'https://github.com/joanbosch/distributed-marketplace',
+        info: 'https://github.com/joanbosch/distributed-marketplace',
+        github: 'https://github.com/joanbosch/distributed-marketplace'
+      },
+      {
+        image: '/compressor.png',
+        title: 'File Compressor',
+        description:
+          'Compressor de archivos e imágenes usando Java y Qt.',
+        tryit: 'https://github.com/joanbosch/java-compressor',
+        info: 'https://github.com/joanbosch/java-compressor',
+        github: 'https://github.com/joanbosch/java-compressor'
+      },
+      {
+        image: '/corrosion.png',
+        title: 'A-Corrosión',
+        description:
+          'Aplicación especializada para la gesitón integral y rastreo de testigos de corrosión',
+        info: 'https://upcommons.upc.edu/handle/2117/355713',
       }
     ]
   },

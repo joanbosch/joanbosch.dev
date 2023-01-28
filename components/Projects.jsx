@@ -24,7 +24,7 @@ const Projects = ({ locales }) => {
           src={image}
           width='320'
           height='180'
-          alt='College Loans'
+          alt='Image'
           loading='lazy'
         />
         <h2 className='mt-4 mb-4 font-bold text-2xl md:text-3xl'>{title}</h2>

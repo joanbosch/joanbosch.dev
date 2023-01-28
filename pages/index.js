@@ -15,7 +15,6 @@ export default function Home({ posts }) {
       <Avatar locales={hero}/>
       <Services locales={services}/>
       <Projects locales={projects}/>
-      <Posts posts={posts} locales={blog}/>
       <Stack locales={stack}/>
     </PageLayout>
   )
