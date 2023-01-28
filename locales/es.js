@@ -7,7 +7,7 @@ const es = {
   footer: {
     cta: '¿Listo para hacer algo increíble?',
     ctabtn: 'Empecemos a hablar.',
-    copyrigth: '© Desarrollado por Joan Bosch bajo licencia GPL V3',
+    copyrigth: '© Desarrollado por Joan Bosch',
     privacy: 'Política de privacidad'
   },
   hero: {
