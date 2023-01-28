@@ -61,16 +61,16 @@ const es = {
   },
   projects: {
     title: 'PROYECTOS',
-    subtitle: 'Desarrollo aplicaciones premiadas',
+    subtitle: 'Proyectos en los que he trabajado',
     try: 'Pruébalo',
     github: 'Mira el GitHub',
     learn: 'Más información',
     projects: [
       {
         image: '/kindlymap.png',
-        title: 'KindlyMap',
+        title: 'Pockless',
         description:
-          'Mapa para buscar causas que necesitan ayuda en todo el mundo, permitiéndote conocer más, donar y añadir tus propias causas, utilizando Next.js, Deta y PayPal.',
+          'Aplicación para Android que permite a usuarios añadir puntos de interés en un mapa.',
         tryit: 'https://map.scidroid.co/',
         info: 'https://devpost.com/software/kindlymap',
         github: 'https://github.com/scidroid/maphacks'

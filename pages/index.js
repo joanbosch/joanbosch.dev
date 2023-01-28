@@ -4,15 +4,17 @@ import Services from '../components/Services';
 import Stack from '../components/Stack';
 import Posts from '../components/Posts';
 import { useTranslation } from './../utils/locales';
+import Projects from '../components/Projects';
 
 
 
 export default function Home({ posts }) {
-  const { hero, services, stack, blog } = useTranslation();
+  const { hero, services, stack, blog, projects } = useTranslation();
   return (
     <PageLayout>
       <Avatar locales={hero}/>
       <Services locales={services}/>
+      <Projects locales={projects}/>
       <Posts posts={posts} locales={blog}/>
       <Stack locales={stack}/>
     </PageLayout>
