@@ -6,11 +6,11 @@ export default function Avatar({locales}) {
     <>
       <section className="animate__animated animate__backInUp flex flex-col justify-center items-center sm:p-12 md:pl-32 md:pr-32 p-8">
         <Image
-          src="/avatar.png"
+          src="/avatar.jpg"
           priority = {true}
           alt="avatar"
-          width={130}
-          height={130}
+          width={170}
+          height={170}
           className="rounded-full"
           />
 
