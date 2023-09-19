@@ -14,7 +14,7 @@ const es = {
     titlecolor: 'Liderando proyectos ',
     title: 'que deleitan y transforman comunidades.',
     subtitle:
-      '¡Hola! 👋 Soy Joan Bosch, ingeniero de software, docente y emprendedor de 24 años.',
+      '¡Hola! 👋 Soy Joan Bosch, ingeniero de software, docente y emprendedor.',
     contact: '¿Hablamos?',
     cv: 'consigue mi CV'
   },
