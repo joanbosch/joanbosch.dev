@@ -11,10 +11,10 @@ const es = {
     privacy: 'Política de privacidad'
   },
   hero: {
-    titlecolor: 'Desarrollo productos ',
+    titlecolor: 'Constructor de productos ',
     title: 'que deleitan y transforman comunidades.',
     subtitle:
-      'Soy Joan Bosch, ingeniero de software y programador web fullstack de 23 años, aportando soluciones a medida para empresas y startups.',
+      'Soy Joan Bosch, ingeniero de software, docente y emprendedor de 24 años.',
     contact: '¿Hablamos?',
     cv: 'consigue mi CV'
   },
@@ -66,6 +66,15 @@ const es = {
     github: 'Mira el GitHub',
     learn: 'Más información',
     projects: [
+      {
+        image: '/south.jpeg',
+        title: 'South Original',
+        description:
+          'Ingeniero de procesos de software en South Original, una startup dedicada al disseño de joyas a partir de plástico reciclado.',
+        tryit: 'https://www.southoriginal.com/',
+        info: 'https://www.southoriginal.com/',
+        github: 'https://www.southoriginal.com/'
+      },
       {
         image: '/pockless.png',
         title: 'Pockless',
