@@ -11,10 +11,10 @@ const es = {
     privacy: 'Política de privacidad'
   },
   hero: {
-    titlecolor: 'Constructor de productos ',
+    titlecolor: 'Liderando proyectos ',
     title: 'que deleitan y transforman comunidades.',
     subtitle:
-      'Soy Joan Bosch, ingeniero de software, docente y emprendedor de 24 años.',
+      '¡Hola! 👋 Soy Joan Bosch, ingeniero de software, docente y emprendedor de 24 años.',
     contact: '¿Hablamos?',
     cv: 'consigue mi CV'
   },
