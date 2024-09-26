@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Joan Bosch's Projects
 
-## Getting Started
+Welcome to the collection of projects developed by Joan Bosch. Below is a list of his works with brief descriptions.
 
-First, run the development server:
+## Gridwow
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[Gridwow](https://www.gridwow.me) is an interactive platform that allows users to create and share grid-based games and puzzles.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Surkad
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[Surkad](https://www.surkad.com) is an innovative application designed to simplify data analysis and visualization for businesses.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Quicklang
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Quicklang](https://www.quicklang.app) is a language learning tool that helps users master new languages through interactive lessons and quizzes.
 
-## Learn More
+## Joan Bosch Learning
 
-To learn more about Next.js, take a look at the following resources:
+[Joan Bosch Learning](https://learning.joanbosch.dev) is an educational platform offering a variety of courses and tutorials on diverse subjects.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pockless
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Pockless](#) is a mobile wallet application that enables secure and convenient digital transactions without the need for physical cards.
 
-## Deploy on Vercel
+## Among Us After Ejection
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Among Us After Ejection](#) is a fan-made extension of the popular game "Among Us," exploring what happens to characters after being ejected.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Break-in
+
+[Break-in](#) is an immersive puzzle game where players must solve challenges to progress and "break into" the next level.
+
+---
+
+Feel free to explore each project by clicking on their respective links.
